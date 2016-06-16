@@ -1,8 +1,12 @@
 {
   "name": "twitter-api-server",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.2.1"
+  },
   "description": "A simple GraphQL server for Twitter that demonstrates knowledge of how the API works and ways in which it could be used",
   "main": "server.js",
+  
   "scripts": {
     "start": "./node_modules/.bin/babel-node  server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
