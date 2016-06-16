@@ -3,7 +3,7 @@ import express from 'express';
 import { apolloServer } from 'graphql-tools';
 import Schema from './data/schema';
 
-const GRAPHQL_PORT = 8080;
+const GRAPHQL_PORT = process.env.PORT || 8080;;
 
 const graphQLServer = express();
 
