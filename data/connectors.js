@@ -1,4 +1,3 @@
-import rp from 'request-promise';
 import Twitter from 'twit';
 import mocks from './mocks';
 
